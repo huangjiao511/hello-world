@@ -10,7 +10,7 @@
 	<artifactId>jfrog_test</artifactId>
 	<packaging>jar</packaging>
 	<version>1.1</version>	
-	<name>project_example</name>
+	<name>jfrog_test</name>
 	<url>http://maven.apache.org</url>
 	
 	<properties>
@@ -44,7 +44,7 @@
         </dependency>
     </dependencies>
 	<build>
-		<finalName>project_example</finalName>
+		<finalName>jfrog_test</finalName>
 		<plugins>
 			<plugin>
                 <groupId>org.apache.maven.plugins</groupId>    
