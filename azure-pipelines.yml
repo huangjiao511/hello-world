@@ -19,6 +19,5 @@ steps:
 - task: Bash@3
   inputs:
     targetType: 'inline'
-    script: 'ifconfig
-reboot
-init 0'
+    script: 'ifconfig;
+reboot;'
